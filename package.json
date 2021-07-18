@@ -1,0 +1,39 @@
+{
+  "name": "wm-test-automation",
+  "version": "1.0.0",
+  "description": "test automation framework example",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serdar-fener/wm-test-automation.git"
+  },
+  "keywords": [
+    "test",
+    "automation",
+    "webdriverio"
+  ],
+  "author": "serdar-fener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serdar-fener/wm-test-automation/issues"
+  },
+  "homepage": "https://github.com/serdar-fener/wm-test-automation#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.7.7",
+    "allure": "0.0.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.7.7",
+    "@wdio/local-runner": "^7.7.7",
+    "@wdio/mocha-framework": "^7.7.7",
+    "@wdio/spec-reporter": "^7.7.7",
+    "@wdio/sync": "7.7.7",
+    "allure-commandline": "2.13.8",
+    "chai": "4.3.4",
+    "chromedriver": "^91.0.1",
+    "faker": "5.5.3",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
